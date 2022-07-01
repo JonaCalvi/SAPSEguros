@@ -10,7 +10,7 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #444444;
+  color: black;
   background: linear-gradient(to left, rgba(0, 112, 13, 0.7), rgba(255, 149, 0, 0.7))
 }
 
@@ -137,7 +137,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: 500;
-  color: #4f5a62;
+  color: black;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -147,7 +147,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 5px;
 }
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #02AB55;
+  color: white;
 }
 .navbar .dropdown ul {
   display: block;
