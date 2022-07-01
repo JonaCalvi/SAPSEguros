@@ -282,7 +282,8 @@ formulario.addEventListener('submit', (event) => {
         let nombre = document.querySelector('#nombre').value
         let apellidos = document.querySelector('#apellidos').value
         let email = document.querySelector('#email').value
-        let mensaje = 'send?phone=' + telefono + '&text=*_Formulario SAP_*%0A*¿Cual es tu nombre?*%0A' + nombre + '%0A*¿Cuáles son tus apellidos?*%0A' + apellidos + '%0A*¿Cuál es tu correo electrónico?*%0A' + email + ''
+        let modelo = document.querySelector('#modelo').value
+        let mensaje = 'send?phone=' + telefono + '&text=*_Formulario SAP_*%0A*¿Cual es tu nombre?*%0A' + nombre + '%0A*¿Cuáles son tus apellidos?*%0A' + apellidos + '%0A*¿Cuál es tu correo electrónico?*%0A' + email + '%0A*¿Modelo?*%0A' + modelo + ''
         if(isMobile()) {
             window.open(urlMobile + mensaje, '_blank')
         }else{
