@@ -11,7 +11,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: black;
-  background: linear-gradient(to left, rgba(0, 112, 13, 0.7), rgba(255, 149, 0, 0.7))
+  background: linear-gradient(to right, rgba(59, 59, 59, 0.5), rgba(195, 196, 171, 0.5))
 }
 
 a {
@@ -66,7 +66,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  background: linear-gradient(to right, rgba(0, 128, 21, 0.25), rgba(255, 123, 0, 0.25));
+  background: linear-gradient(to right, rgba(59, 59, 59, 0.5), rgba(195, 196, 171, 0.5));
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 #header .logo h1 {
@@ -1325,4 +1325,10 @@ border-radius: 40px 0px 13px 0px;
   background-color: #2F855A;
   border: solid 2px #2F855A;
   transition: .5s;
+}
+
+
+
+.gradiente1 {
+  background: linear-gradient(to right, rgba(106, 133, 182, 0.85), rgba(186, 200, 224, 0.85))
 }
