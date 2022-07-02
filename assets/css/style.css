@@ -147,7 +147,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 5px;
 }
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: white;
+  color: #02964B;
 }
 .navbar .dropdown ul {
   display: block;
@@ -1331,4 +1331,38 @@ border-radius: 40px 0px 13px 0px;
 
 .gradiente1 {
   background: linear-gradient(to right, rgba(106, 133, 182, 0.85), rgba(186, 200, 224, 0.85))
+}
+
+
+.cajas2 {
+  background: rgba( 155, 155, 155, 0.55 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 7.5px );
+-webkit-backdrop-filter: blur( 7.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+
+
+
+.clients {
+  padding: 15px 0;
+  text-align: center;
+}
+.clients img {
+  max-width: 45%;
+  transition: all 0.4s ease-in-out;
+  display: inline-block;
+  padding: 15px 0;
+  filter: grayscale(100);
+}
+.clients img:hover {
+  filter: none;
+  transform: scale(1.15);
+}
+@media (max-width: 768px) {
+  .clients img {
+    max-width: 40%;
+  }
 }
