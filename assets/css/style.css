@@ -66,7 +66,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  background: linear-gradient(to right, rgba(59, 59, 59, 0.5), rgba(195, 196, 171, 0.5));
+  background: linear-gradient(to left, rgba(59, 59, 59, 0.5), rgba(195, 196, 171, 0.5));
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 #header .logo h1 {
