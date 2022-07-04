@@ -419,7 +419,7 @@ section {
   text-align: center;
   padding: 30px 20px;
   transition: all ease-in-out 0.3s;
-  background: rgba( 255, 255, 255, 0.5 );
+  background: linear-gradient(to right, rgba(106, 133, 182, 0.85), rgba(186, 200, 224, 0.85));
 box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
 backdrop-filter: blur( 2px );
 -webkit-backdrop-filter: blur( 2px );
