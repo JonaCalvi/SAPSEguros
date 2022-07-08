@@ -404,7 +404,7 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  background: #3498db;
+  background: green;
   bottom: 0;
   left: calc(50% - 20px);
 }
@@ -449,7 +449,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
   font-size: 24px;
 }
 .what-we-do .icon-box h4 a {
-  color: #384046;
+  color: black;
   transition: ease-in-out 0.3s;
 }
 .what-we-do .icon-box p {
@@ -462,7 +462,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
   box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
 }
 .what-we-do .icon-box:hover h4 a, .what-we-do .icon-box:hover .icon i {
-  color: #3498db;
+  color: green;
 }
 
 /*--------------------------------------------------------------
@@ -608,7 +608,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
   font-size: 18px;
 }
 .services .icon-box h4 a {
-  color: #384046;
+  color: black;
   transition: 0.3s;
 }
 .services .icon-box p {

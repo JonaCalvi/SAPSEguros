@@ -223,7 +223,7 @@ url("./fonts/bootstrap-icons.woff?a74547b2f0863226942ff8ded57db345") format("wof
 .bi-braces::before { content: "\f1c9"; }
 .bi-bricks::before { content: "\f1ca"; }
 .bi-briefcase-fill::before { content: "\f1cb"; }
-.bi-briefcase::before { content: "\f1cc"; }
+.bi-briefcase::before { content: "\f1cc"; color: green; }
 .bi-brightness-alt-high-fill::before { content: "\f1cd"; }
 .bi-brightness-alt-high::before { content: "\f1ce"; }
 .bi-brightness-alt-low-fill::before { content: "\f1cf"; }
