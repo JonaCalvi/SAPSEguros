@@ -145,7 +145,7 @@ url("./fonts/bootstrap-icons.woff?a74547b2f0863226942ff8ded57db345") format("wof
 .bi-bar-chart-line-fill::before { content: "\f17b"; }
 .bi-bar-chart-line::before { content: "\f17c"; }
 .bi-bar-chart-steps::before { content: "\f17d"; }
-.bi-bar-chart::before { content: "\f17e"; }
+.bi-bar-chart::before { content: "\f17e"; color: green; }
 .bi-basket-fill::before { content: "\f17f"; }
 .bi-basket::before { content: "\f180"; }
 .bi-basket2-fill::before { content: "\f181"; }
@@ -162,7 +162,7 @@ url("./fonts/bootstrap-icons.woff?a74547b2f0863226942ff8ded57db345") format("wof
 .bi-bezier2::before { content: "\f18c"; }
 .bi-bicycle::before { content: "\f18d"; }
 .bi-binoculars-fill::before { content: "\f18e"; }
-.bi-binoculars::before { content: "\f18f"; }
+.bi-binoculars::before { content: "\f18f"; color: green; }
 .bi-blockquote-left::before { content: "\f190"; }
 .bi-blockquote-right::before { content: "\f191"; }
 .bi-book-fill::before { content: "\f192"; }
@@ -229,7 +229,7 @@ url("./fonts/bootstrap-icons.woff?a74547b2f0863226942ff8ded57db345") format("wof
 .bi-brightness-alt-low-fill::before { content: "\f1cf"; }
 .bi-brightness-alt-low::before { content: "\f1d0"; }
 .bi-brightness-high-fill::before { content: "\f1d1"; }
-.bi-brightness-high::before { content: "\f1d2"; }
+.bi-brightness-high::before { content: "\f1d2"; color: green; }
 .bi-brightness-low-fill::before { content: "\f1d3"; }
 .bi-brightness-low::before { content: "\f1d4"; }
 .bi-broadcast-pin::before { content: "\f1d5"; }
@@ -298,7 +298,7 @@ url("./fonts/bootstrap-icons.woff?a74547b2f0863226942ff8ded57db345") format("wof
 .bi-calendar3::before { content: "\f214"; }
 .bi-calendar4-event::before { content: "\f215"; }
 .bi-calendar4-range::before { content: "\f216"; }
-.bi-calendar4-week::before { content: "\f217"; }
+.bi-calendar4-week::before { content: "\f217"; color: green; }
 .bi-calendar4::before { content: "\f218"; }
 .bi-camera-fill::before { content: "\f219"; }
 .bi-camera-reels-fill::before { content: "\f21a"; }
@@ -311,7 +311,7 @@ url("./fonts/bootstrap-icons.woff?a74547b2f0863226942ff8ded57db345") format("wof
 .bi-camera2::before { content: "\f221"; }
 .bi-capslock-fill::before { content: "\f222"; }
 .bi-capslock::before { content: "\f223"; }
-.bi-card-checklist::before { content: "\f224"; }
+.bi-card-checklist::before { content: "\f224"; color: green;}
 .bi-card-heading::before { content: "\f225"; }
 .bi-card-image::before { content: "\f226"; }
 .bi-card-list::before { content: "\f227"; }
