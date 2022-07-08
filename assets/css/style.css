@@ -592,7 +592,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 .services .icon-box {
   padding: 30px;
   border-radius: 6px;
-  background: ;
+  background:linear-gradient(to right, rgba(106, 133, 182, 0.85), rgba(186, 200, 224, 0.85));
   transition: ease-in-out 0.3s;
 }
 .services .icon-box i {
