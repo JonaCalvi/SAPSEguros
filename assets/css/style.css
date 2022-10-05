@@ -1567,3 +1567,31 @@ text-muted {
   mix-blend-mode: darken;
   background: rgba(74, 153, 228, 0.5);
 }
+
+
+.box{
+    padding:60px 0px;
+}
+
+.box-part{
+    background:#FFF;
+    border-radius:0;
+    padding:10px 10px;
+    margin:30px 0px;
+    background: linear-gradient(to right, rgba(106, 133, 182, 0.85), rgba(186, 200, 224, 0.85));
+    -webkit-border-top-left-radius: 95px;
+    -webkit-border-bottom-right-radius: 95px;
+    -moz-border-radius-topleft: 95px;
+    -moz-border-radius-bottomright: 95px;
+    border-top-left-radius: 95px;
+    border-bottom-right-radius: 95px;
+
+
+}
+.text{
+    margin:20px 0px;
+}
+
+.fa{
+     color:#4183D7;
+}
