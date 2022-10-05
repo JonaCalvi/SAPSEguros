@@ -1609,3 +1609,11 @@ border-radius: 95px;
 
 
 }
+
+.cuadrado1{
+  border-radius: 20px;
+  border: 5px inset green;
+  -webkit-border-radius: 95px;
+-moz-border-radius: 95px;
+border-radius: 95px;
+}
