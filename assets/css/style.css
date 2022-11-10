@@ -1514,6 +1514,10 @@ li{
   border-radius: 20px;
   border: 5px inset #EA2E25;
 }
+.cuadrado2{
+  border-radius: 20px;
+ 
+}
 .tamanio{
   height: auto;
   width: 500px;
