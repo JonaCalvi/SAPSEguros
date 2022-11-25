@@ -1652,3 +1652,6 @@ grid-row-gap: 8px;
 .div12 { grid-area: 3 / 3 / 4 / 4; }
 .div13 { grid-area: 3 / 4 / 4 / 5; }
 .div14 { grid-area: 4 / 3 / 5 / 4; }
+
+
+.panel-body .btn:not(.btn-block) { width:auto;margin-bottom:10px; }
