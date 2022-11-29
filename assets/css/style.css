@@ -1655,3 +1655,12 @@ grid-row-gap: 8px;
 
 
 .panel-body .btn:not(.btn-block) { width:auto;margin-bottom:10px; }
+
+.color {
+  color: white;
+}
+
+
+.logos {
+  height: 100px;
+}
