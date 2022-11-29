@@ -272,7 +272,7 @@ const formulario = document.querySelector('#formulario');
 const buttonSubmit = document.querySelector('#submit');
 const urlDesktop = 'https://web.whatsapp.com/';
 const urlMobile = 'whatsapp://';
-const telefono = '+549 2612090679';
+const telefono = '+5402612090679';
 
 formulario.addEventListener('submit', (event) => {
     event.preventDefault()
