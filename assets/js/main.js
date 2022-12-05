@@ -272,7 +272,7 @@ const formulario = document.querySelector('#formulario');
 const buttonSubmit = document.querySelector('#submit');
 const urlDesktop = 'https://web.whatsapp.com/';
 const urlMobile = 'whatsapp://';
-const telefono = '+542612090679';
+const telefono = '+5402612090679';
 
 formulario.addEventListener('submit', (event) => {
     event.preventDefault()
@@ -283,8 +283,7 @@ formulario.addEventListener('submit', (event) => {
         let apellidos = document.querySelector('#apellidos').value
         let email = document.querySelector('#email').value
         let modelo = document.querySelector('#modelo').value
-        let telefono = document.querySelector('#telefono').value
-        let mensaje = 'send?phone=' + telefono + '&text=*_Formulario SAP_*%0A*¿Cual es tu nombre?*%0A' + nombre + '%0A*¿Tipo de seguro?*%0A' + apellidos + '%0A*¿Cuál es tu correo electrónico?*%0A' + email + '%0A*¿Modelo?*%0A' + modelo + ''
+        let mensaje = 'send?phone=' + telefono + '&text=*_Formulario SAP_*%0A*¿Cual es tu nombre?*%0A' + nombre + '%0A*Tipo de Seguro*%0A' + apellidos + '%0A*¿Cuál es tu correo electrónico?*%0A' + email +'%0A*Modelo*%0A' + modelo + ''
         if(isMobile()) {
             window.open(urlMobile + mensaje, '_blank')
         }else{
