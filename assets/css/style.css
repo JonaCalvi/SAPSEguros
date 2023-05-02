@@ -889,12 +889,12 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 .team .member h4 {
   font-weight: 700;
   margin-bottom: 2px;
-  font-size: 18px;
+  font-size: 25px;
 }
 .team .member span {
   font-style: italic;
   display: block;
-  font-size: 13px;
+  font-size: 18px;
 }
 .team .member p {
   padding-top: 10px;
